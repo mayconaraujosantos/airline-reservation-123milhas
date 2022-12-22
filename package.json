@@ -1,0 +1,8 @@
+{
+  "name": "airline-reservation-123milhas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mayconaraujosantos/airline-reservation-123milhas.git",
+  "author": "mayconaraujosantos <maycon.araujo.santos@gmail.com>",
+  "license": "MIT"
+}

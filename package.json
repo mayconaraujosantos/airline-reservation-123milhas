@@ -13,8 +13,13 @@
     "yarn": ">=1.20.0",
     "npm": "please-use-yarn"
   },
+  "scripts": {
+    "prettier": "prettier --write \"src/**/*.ts\"",
+    "prettier:check": "prettier --check \"src/**/*.ts\""
+  },
   "devDependencies": {
     "@types/node": "18.11.17",
+    "prettier": "2.8.1",
     "typescript": "4.9.4"
   }
 }

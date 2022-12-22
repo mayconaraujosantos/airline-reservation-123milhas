@@ -17,9 +17,12 @@
     "prettier": "prettier --write \"src/**/*.ts\"",
     "prettier:check": "prettier --check \"src/**/*.ts\"",
     "lint": "eslint --ignore-path .eslintignore \"src/**/*.ts\" --fix",
-    "lint:check": "eslint --ignore-path .eslintignore \"src/**/*.ts\""
+    "lint:check": "eslint --ignore-path .eslintignore \"src/**/*.ts\"",
+    "prepare": "husky install"
   },
   "devDependencies": {
+    "@commitlint/cli": "17.3.0",
+    "@commitlint/config-conventional": "17.3.0",
     "@types/node": "18.11.17",
     "@typescript-eslint/eslint-plugin": "5.47.0",
     "@typescript-eslint/parser": "5.47.0",
@@ -32,5 +35,8 @@
     "eslint-plugin-promise": "6.1.1",
     "prettier": "2.8.1",
     "typescript": "4.9.4"
+  },
+  "dependencies": {
+    "husky": "8.0.2"
   }
 }

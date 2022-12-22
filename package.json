@@ -4,5 +4,17 @@
   "main": "index.js",
   "repository": "git@github.com:mayconaraujosantos/airline-reservation-123milhas.git",
   "author": "mayconaraujosantos <maycon.araujo.santos@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mayconaraujosantos/airline-reservation-123milhas/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "yarn": ">=1.20.0",
+    "npm": "please-use-yarn"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.17",
+    "typescript": "4.9.4"
+  }
 }
